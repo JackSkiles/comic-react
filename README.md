@@ -14,10 +14,15 @@ When first loaded, it should look like this:
 
 There is also a search function that allows users to search for a comic by its number. When the user types the number it is handled by an onChange method that takes the input of the user and sets the state of user input accordingly.
 
+![chrome_2020-06-17_21-49-12](https://user-images.githubusercontent.com/62663652/84969240-48e2a100-b0e6-11ea-9a4e-9165e4d627a1.png)
 
-Then when submitted the user input
-is added to the end of the API URL and save in State. It is then rendered to the page using img elements, similar to the comic of
-the day. Enjoy searching through some funny comics!
+
+Then when submitted the user input is added to the end of the API URL and save in State. It is then rendered to the page using img
+elements, similar to the comic of the day.
+
+
+
+Enjoy searching through some funny comics!
 
 ## Available Scripts
 
