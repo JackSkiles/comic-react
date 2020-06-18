@@ -37,32 +37,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Welcome to my comic app! 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Using this React app you are able to view the comic of the day taken from a web comic API from xkcd by Randall Munroe.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+when the page loads the react calls and mounts the method that fetches the API URL for the comic of the day and passes it to State,
+which is then used to load the image in HTML img elements.
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+There is also a search function that allows users to search for a comic by its number. When the user types the number it is handled by an onChange method that takes the input of the user and sets the state of user input accordingly. Then when submitted the user input
+is added to the end of the API URL and save in State. It is then rendered to the page using img elements, similar to the comic of
+the day. Enjoy searching through some funny comics!
