@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Welcome to my comic app! 
+
+Using this React app you are able to view the comic of the day taken from a web comic API from xkcd by Randall Munroe.
+
+when the page loads the react calls and mounts the method that fetches the API URL for the comic of the day and passes it to State,
+which is then used to load the image in HTML img elements.
+
+There is also a search function that allows users to search for a comic by its number. When the user types the number it is handled by an onChange method that takes the input of the user and sets the state of user input accordingly. Then when submitted the user input
+is added to the end of the API URL and save in State. It is then rendered to the page using img elements, similar to the comic of
+the day. Enjoy searching through some funny comics!
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,13 +48,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Welcome to my comic app! 
-
-Using this React app you are able to view the comic of the day taken from a web comic API from xkcd by Randall Munroe.
-
-when the page loads the react calls and mounts the method that fetches the API URL for the comic of the day and passes it to State,
-which is then used to load the image in HTML img elements.
-
-There is also a search function that allows users to search for a comic by its number. When the user types the number it is handled by an onChange method that takes the input of the user and sets the state of user input accordingly. Then when submitted the user input
-is added to the end of the API URL and save in State. It is then rendered to the page using img elements, similar to the comic of
-the day. Enjoy searching through some funny comics!
