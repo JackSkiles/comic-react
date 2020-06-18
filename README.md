@@ -7,7 +7,15 @@ Using this React app you are able to view the comic of the day taken from a web 
 when the page loads the react calls and mounts the method that fetches the API URL for the comic of the day and passes it to State,
 which is then used to load the image in HTML img elements.
 
-There is also a search function that allows users to search for a comic by its number. When the user types the number it is handled by an onChange method that takes the input of the user and sets the state of user input accordingly. Then when submitted the user input
+When first loaded, it should look like this:
+
+![chrome_2020-06-17_21-49-02](https://user-images.githubusercontent.com/62663652/84969143-1638a880-b0e6-11ea-9d6e-130963487e19.png)
+
+
+There is also a search function that allows users to search for a comic by its number. When the user types the number it is handled by an onChange method that takes the input of the user and sets the state of user input accordingly.
+
+
+Then when submitted the user input
 is added to the end of the API URL and save in State. It is then rendered to the page using img elements, similar to the comic of
 the day. Enjoy searching through some funny comics!
 
