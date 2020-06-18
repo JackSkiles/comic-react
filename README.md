@@ -20,6 +20,7 @@ There is also a search function that allows users to search for a comic by its n
 Then when submitted the user input is added to the end of the API URL and save in State. It is then rendered to the page using img
 elements, similar to the comic of the day.
 
+![chrome_2020-06-17_21-49-23](https://user-images.githubusercontent.com/62663652/84969337-74fe2200-b0e6-11ea-8267-fae485386daf.png)
 
 
 Enjoy searching through some funny comics!
